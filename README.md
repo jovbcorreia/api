@@ -9,7 +9,43 @@
   },# API Sandbox
 
   A lightweight **Node.js + Express** REST API sandbox with full CRUD support.
+# API Sandbox
 
+A lightweight **Node.js + Express** REST API sandbox with full CRUD support.
+
+> Co-built with Claude (Anthropic). Public sandbox for testing and open-source collaboration. Data is in-memory and resets on restart.
+>
+> ## Tech Stack
+>
+> - Runtime: Node.js
+> - - Framework: Express.js
+>   - - Data Store: In-memory (no database)
+>     - - Protocol: REST / JSON
+>
+> ## Setup
+>
+> ```bash
+> git clone https://github.com/jovbcorreia/api.git
+> cd api
+> npm install
+> npm start
+> ```
+>
+> API runs at http://localhost:3000
+>
+> ## Endpoints
+>
+> | Method | Endpoint | Description |
+> |---|---|---|
+> | GET | /items | Get all items |
+> | GET | /items/:id | Get one item |
+> | POST | /items | Create item |
+> | PUT | /items/:id | Update item |
+> | DELETE | /items/:id | Delete item |
+>
+> ## License
+>
+> MIT
   > Co-built with Claude (Anthropic). Public sandbox for testing and open-source collaboration. Data is in-memory and resets on restart.
 
   ## Tech Stack
