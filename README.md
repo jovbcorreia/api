@@ -26,6 +26,8 @@ A lightweight **Node.js + Express** REST API sandbox with full CRUD support.
 >
 > ```bash
 > git clone https://github.com/jovbcorreia/api.git
+>
+> <!-- yolo: sandbox patch -->
 > cd api
 > npm install
 > npm start
